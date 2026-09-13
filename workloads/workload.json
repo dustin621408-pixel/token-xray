@@ -1,0 +1,56 @@
+﻿{
+  "workload_id": "tokenxray-public-v1",
+  "quality_rule": "Exact trimmed answer match.",
+  "tasks": [
+    {
+      "id": "01-seed",
+      "prompt": "What is 17 + 25? Return only the integer answer.",
+      "expected": "42"
+    },
+    {
+      "id": "01-repeat",
+      "prompt": "What is 17 + 25? Return only the integer answer.",
+      "expected": "42"
+    },
+    {
+      "id": "02-seed",
+      "prompt": "What is 9 multiplied by 8? Return only the integer answer.",
+      "expected": "72"
+    },
+    {
+      "id": "02-repeat",
+      "prompt": "What is 9 multiplied by 8? Return only the integer answer.",
+      "expected": "72"
+    },
+    {
+      "id": "03-seed",
+      "prompt": "What is 21 + 22? Return only the integer answer.",
+      "expected": "43"
+    },
+    {
+      "id": "03-repeat",
+      "prompt": "What is 21 + 22? Return only the integer answer.",
+      "expected": "43"
+    },
+    {
+      "id": "04-seed",
+      "prompt": "What is 31 + 12? Return only the integer answer.",
+      "expected": "43"
+    },
+    {
+      "id": "04-repeat",
+      "prompt": "What is 31 + 12? Return only the integer answer.",
+      "expected": "43"
+    },
+    {
+      "id": "05-seed",
+      "prompt": "What is 100 - 37? Return only the integer answer.",
+      "expected": "63"
+    },
+    {
+      "id": "05-repeat",
+      "prompt": "What is 100 - 37? Return only the integer answer.",
+      "expected": "63"
+    }
+  ]
+}
